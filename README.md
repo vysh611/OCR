@@ -51,9 +51,7 @@ drive.mount('/content/drive')
 ```
 
 Wait for it to fully finish before moving to the next cell. This installs:
-- `tesseract-ocr` — reads the printed Receipt No./Date-Time text
-- `libzbar0` + `pyzbar` — decodes the QR code on the receipt (see Step 5, this is
-  the main accuracy fix for Session ID)
+- `tesseract-ocr` — reads the printed Receipt No./Date-Time text.
 - everything else — image processing and Excel writing
 
 **If you ever restart the Colab runtime** (Runtime → Restart session), all
